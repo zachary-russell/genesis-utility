@@ -1,0 +1,16 @@
+//Color Scheme
+$color-base: #e5ebe6;
+$color-primary: #5b8d96;
+$color-secondary: #c45a3f;
+$color-cta: #a385be;
+$color-extra: #3b3d42;
+
+//Light & Dark
+$light: #fff;
+$dark: #000;
+
+//Media Queries
+
+$mobile: new-breakpoint(max-width 500px 4);
+$tablet: new-breakpoint(max-width 768px 4);
+$tablet-landscape: new-breakpoint(max-width 1024 6);
