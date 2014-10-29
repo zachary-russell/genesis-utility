@@ -459,3 +459,45 @@ html {
  */
 /* Import Variables and Mixins */
 /* Import Partials */
+.content-sidebar-wrap {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .content-sidebar-wrap:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.content {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%; }
+  .content:last-child {
+    margin-right: 0; }
+
+.sidebar-primary {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
+  .sidebar-primary:last-child {
+    margin-right: 0; }
+
+.site-header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .site-header:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.site-footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .site-footer:after {
+    content: "";
+    display: table;
+    clear: both; }

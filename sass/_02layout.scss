@@ -1,0 +1,17 @@
+//Default Layout (Content-Sidebar)
+.content-sidebar-wrap {
+    @include outer-container;
+}
+.content{
+    @include span-columns(6);
+}
+.sidebar-primary{ 
+    @include span-columns(4);
+}
+
+
+//Sidebar-Content Layout
+.sidebar-content{}
+
+//Full Width Content Layout
+.full-width-content{}
