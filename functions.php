@@ -3,8 +3,8 @@
 include_once( get_template_directory() . '/lib/init.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'Genesis Sample Theme' );
-define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
+define( 'CHILD_THEME_NAME', 'WP Temple Sandbox Theme' );
+define( 'CHILD_THEME_URL', 'https://www.wptemple.com/' );
 define( 'CHILD_THEME_VERSION', '2.1.2' );
 
 //* Enqueue Google Fonts
