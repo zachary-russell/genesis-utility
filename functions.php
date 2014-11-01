@@ -31,3 +31,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 genesis_unregister_layout( 'content-sidebar-sidebar' );
 genesis_unregister_layout( 'sidebar-content-sidebar' );
 genesis_unregister_layout( 'sidebar-sidebar-content' );
+
+//* Move Primary Nav Above Header
+remove_action('genesis_after_header', 'genesis_do_nav');
+add_action('genesis_before_header', 'genesis_do_nav');
