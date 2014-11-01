@@ -1,0 +1,58 @@
+.genesis-nav-menu {
+    @include outer-container;
+    clear: both;
+    color: $color-base;
+    padding-left: 0;
+
+    .menu-item: {
+        display: inline-block;
+        text-align: left;
+        float: left;
+    }
+
+    a {
+        border: none;
+        display: block;
+        padding: rem(15px) rem(30px);
+        position: relative;
+    }
+    .menu-item {
+        list-style: none;
+        float: left;
+
+        a {
+            color: $dark;
+            text-decoration: none;
+
+            &:hover {
+                background: $color-cta;
+            }
+        }
+
+    }
+    .current-menu-item > a {
+        color: $light;
+        background: $color-cta;
+    }
+}
+
+//* Primary Navigation
+.nav-primary {
+    background-color: $dark;
+
+    .menu-primary {
+        margin-top: 0;
+    }
+    .menu-item a {
+        color: $light;
+    }
+
+}
+
+//* Secondary Navigation
+.nav-secondary {
+  .menu-item {
+    color: $dark;
+  }
+
+}
