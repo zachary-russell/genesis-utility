@@ -492,6 +492,24 @@ html {
   margin-right: 0;
 }
 
+.sidebar-content .sidebar-primary {
+  float: left;
+}
+.sidebar-content .content {
+  float: right;
+  margin-right: 0.625rem;
+}
+
+.full-width-content .content {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%;
+}
+.full-width-content .content:last-child {
+  margin-right: 0;
+}
+
 .site-header {
   max-width: 68em;
   margin-left: auto;

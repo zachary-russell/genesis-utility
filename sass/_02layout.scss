@@ -11,7 +11,19 @@
 
 
 //Sidebar-Content Layout
-.sidebar-content{}
+.sidebar-content{
+    .sidebar-primary {
+        float: left;
+    }
+    .content {
+        float: right;
+        margin-right: rem(10px);
+    }
+}
 
 //Full Width Content Layout
-.full-width-content{}
+.full-width-content{
+    .content {
+        @include span-columns(12);
+    }
+}
