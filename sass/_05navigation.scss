@@ -25,14 +25,16 @@
             text-decoration: none;
 
             &:hover {
-                background: $color-cta;
+                color: $color-cta;
             }
         }
 
     }
     .current-menu-item > a {
-        color: $light;
-        background: $color-cta;
+        color: $color-cta!important;
+    }
+    .menu-item:first-child > a {
+        padding-left: 0;
     }
 }
 
@@ -51,8 +53,21 @@
 
 //* Secondary Navigation
 .nav-secondary {
-  .menu-item {
-    color: $dark;
+    @include outer-container;
+    border-top: 2px solid $dark;
+    border-bottom: 1px solid $dark;
+
+    .menu-secondary {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+  .menu-item a {
+      &:hover {
+          color: $color-cta;
+          background: none;
+          text-decoration: underline;
+      }
   }
 
 }
