@@ -859,6 +859,14 @@ th {
   padding: 0;
 }
 
+a {
+  color: #a385be;
+  text-decoration: none;
+}
+a:hover {
+  color: #725d85;
+}
+
 .content-sidebar-wrap {
   max-width: 68em;
   margin-left: auto;
@@ -988,9 +996,12 @@ th {
 .nav-secondary .menu-item a:hover {
   color: #a385be;
   background: none;
-  text-decoration: underline;
 }
 
+.footer-widgets {
+  color: #b2b2b2;
+  background: #333;
+}
 .footer-widgets .wrap {
   max-width: 68em;
   margin-left: auto;
@@ -1013,6 +1024,15 @@ th {
 .footer-widgets .footer-widgets-2:last-child,
 .footer-widgets .footer-widgets-3:last-child {
   margin-right: 0;
+}
+.footer-widgets .widgettitle {
+  color: #fff;
+}
+.footer-widgets a {
+  color: #b2b2b2;
+}
+.footer-widgets a:hover {
+  color: #a385be;
 }
 
 .site-footer {
