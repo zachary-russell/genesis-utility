@@ -1,1 +1,8 @@
 @import "normalize";
+a {
+    color: $color-cta;
+    text-decoration: none;
+    &:hover {
+        color: shade($color-cta, 30%);
+    }
+}

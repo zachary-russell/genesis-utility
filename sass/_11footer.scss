@@ -1,4 +1,6 @@
 .footer-widgets {
+    color: shade($light, 30%);
+    background: $dark;
     .wrap{
         @include outer-container;
     }
@@ -6,6 +8,15 @@
     .footer-widgets-2,
     .footer-widgets-3 {
         @include span-columns(4);
+    }
+    .widgettitle {
+        color: $light;
+    }
+    a {
+        color: shade($light, 30%);
+        &:hover {
+            color: $color-cta;
+        }
     }
 }
 .site-footer {
