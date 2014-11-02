@@ -11,7 +11,7 @@
 .responsive-menu-icon::before {
     content: "\f333";
     display: inline-block;
-    font: normal 20px/1 'dashicons';
+    font: normal rem(30px) 'dashicons';
     margin: 0 auto;
     padding: 10px;
 }
@@ -21,10 +21,6 @@
 @media only screen and (max-width: 768px) {
     .genesis-nav-menu.responsive-menu {
         display: none;
-    }
-
-    .nav-primary .responsive-menu-icon {
-        margin-top: 20px;
     }
 
     .genesis-nav-menu.responsive-menu .menu-item,
