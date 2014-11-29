@@ -23,10 +23,10 @@
 
 //* Primary Navigation
 .nav-primary {
-    background-color: $dark;
+    background-color: $dark-gray;
 
     .menu-item a {
-        color: $light;
+        color: $light-gray;
 
         &:hover {
             color: $base-accent-color;
