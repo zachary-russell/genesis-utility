@@ -1,6 +1,6 @@
 .footer-widgets {
-    color: shade($light, 30%);
-    background: $dark;
+    color: shade($light-gray, 30%);
+    background: $dark-gray;
     .wrap{
         @include outer-container;
     }
@@ -10,12 +10,10 @@
         @include span-columns(4);
     }
     .widgettitle {
-        color: $light;
+        color: $light-gray;
     }
     a {
-        color: shade($light, 30%);
         &:hover {
-            color: $color-cta;
         }
     }
 }
