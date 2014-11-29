@@ -1,17 +1,8 @@
 .genesis-nav-menu {
     @include outer-container;
-    clear: both;
-    color: $color-base;
     padding-left: 0;
 
-    .menu-item: {
-        display: inline-block;
-        text-align: left;
-        float: left;
-    }
-
     a {
-        border: none;
         display: block;
         padding: rem(15px) rem(30px);
         position: relative;
@@ -20,21 +11,13 @@
         list-style: none;
         float: left;
 
-        a {
-            color: $dark;
-            text-decoration: none;
-
-            &:hover {
-                color: $color-cta;
-            }
+        &.current-menu-item a {
+            color: $base-accent-color;
         }
-
-    }
-    .current-menu-item > a {
-        color: $color-cta!important;
-    }
-    .menu-item:first-child > a {
-        padding-left: 0;
+    
+        &:first-child a {
+            padding-left: 0;
+        }
     }
 }
 
@@ -42,31 +25,12 @@
 .nav-primary {
     background-color: $dark;
 
-    .menu-primary {
-        margin-top: 0;
-    }
     .menu-item a {
         color: $light;
+
+        &:hover {
+            color: $base-accent-color;
+        }
     }
-
-}
-
-//* Secondary Navigation
-.nav-secondary {
-    @include outer-container;
-    border-top: 2px solid $dark;
-    border-bottom: 1px solid $dark;
-
-    .menu-secondary {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-  .menu-item a {
-      &:hover {
-          color: $color-cta;
-          background: none;
-      }
-  }
 
 }
