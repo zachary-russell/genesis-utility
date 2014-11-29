@@ -13,6 +13,7 @@ License: GPL V2+
 /* Import Web Fonts */
 
 /* Import Bourbon and Neat */
+@import "normalize";
 @import "bourbon/_bourbon";
 @import "neat/_neat";
 @import "base/base";
@@ -22,10 +23,9 @@ License: GPL V2+
 @import "mixins";
 
 /* Import Partials */
-@import "normalize";
 @import "01defaults";
 @import "02layout";
-@import "03headings";
+//@import "03headings";
 @import "04header";
 @import "05navigation";
 @import "06meta-comments";
