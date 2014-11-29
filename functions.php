@@ -8,13 +8,11 @@ function sandbox_setup() {
     define( 'CHILD_THEME_VERSION', '2.1.2' );
 
     add_action( 'wp_enqueue_scripts', 'genesis_sandbox_enqueue_scripts' );
-    function genesis_sandbox_enqueue_scripts() {
+        function genesis_sandbox_enqueue_scripts() {
+            wp_enqueue_script( 'responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
+            wp_enqueue_style( 'dashicons' );
 
-        wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700', array(), CHILD_THEME_VERSION );
-        wp_enqueue_script( 'responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
-        wp_enqueue_style( 'dashicons' );
-
-    }
+        }
 
     //* Add HTML5 markup structure
     add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
