@@ -18,14 +18,9 @@ License: GPL V2+
 @import "base/base";
 @import "neat/neat";
 
-/* Import Variables and Mixins */
-//@import "variables";
-@import "mixins";
 
 /* Import Partials */
-@import "01defaults";
 @import "02layout";
-//@import "03headings";
 @import "04header";
 @import "05navigation";
 @import "06meta-comments";
