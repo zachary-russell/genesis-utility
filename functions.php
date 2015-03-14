@@ -34,4 +34,9 @@ function sandbox_setup() {
     //* Move Primary Nav Above Header
     remove_action('genesis_after_header', 'genesis_do_nav');
     add_action('genesis_before_header', 'genesis_do_nav');
+
+    add_theme_support( 'custom-header', array(
+        'width'             => '300',
+        'height'            => '100',
+    ) );
 }
