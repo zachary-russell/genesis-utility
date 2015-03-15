@@ -20,14 +20,14 @@ License: GPL V2+
 
 
 /* Import Partials */
-@import "02layout";
-@import "04header";
-@import "05navigation";
-@import "06meta-comments";
-@import "07entrycontent";
-@import "08sidebar";
-@import "09sidebaralt";
-@import "10forms";
-@import "11footer";
-@import "column-classes";
-@import "12responsive";
+@import "partials/layout";
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/meta-comments";
+@import "partials/entrycontent";
+@import "partials/sidebar";
+@import "partials/sidebaralt";
+@import "partials/forms";
+@import "partials/footer";
+@import "partials/column-classes";
+@import "partials/responsive";
