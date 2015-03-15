@@ -1,6 +1,6 @@
 <?php
 //* Start the engine
-include_once( get_templte_directory() . '/lib/init.php' );
+include_once( get_template_directory() . '/lib/init.php' );
 
 
 define( 'CHILD_THEME_NAME', 'WP Temple Sandbox Theme' );
