@@ -498,6 +498,7 @@ html {
       position: static; }
 
 .footer-widgets {
+  padding: 1.875rem 0;
   color: #9b9b9b;
   background: #333; }
   .footer-widgets .wrap {
@@ -520,12 +521,14 @@ html {
     .footer-widgets .footer-widgets-3:last-child {
       margin-right: 0; }
   .footer-widgets .widgettitle {
-    color: #DDD; }
+    color: #DDD;
+    margin-bottom: 0.625rem; }
 
 .site-footer {
   max-width: 75em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  text-align: center; }
   .site-footer::after {
     clear: both;
     content: "";
