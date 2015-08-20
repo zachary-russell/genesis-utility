@@ -490,7 +490,8 @@ html {
     border-left: 1px solid white; }
 
 .nav-primary {
-  background-color: #333; }
+  background-color: #333;
+  margin-bottom: 1.875rem; }
   .nav-primary .menu-item a {
     color: white; }
     .nav-primary .menu-item a:hover {
