@@ -3,9 +3,25 @@
 
     .title-area {
         @include span-columns(3);
+
+        @include media($tablet) {
+            @include span-columns(3);
+        }
+
+        @include media($mobile) {
+            @include span-columns(4);
+        }
     }
     .header-widget-area {
         @include span-columns(9);
+
+        @include media($tablet) {
+            @include span-columns(5);
+        }
+
+        @include media($mobile) {
+            @include span-columns(4);
+        }
     }
 }
 
@@ -13,9 +29,9 @@
 //* Header Image Styles
 
 .header-image {
-    .site-title > a {
+    .site-title a {
         float: left;
-        min-height: 60px;
+        height: 100px;
         width: 100%;
     }
 
