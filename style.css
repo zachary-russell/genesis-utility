@@ -402,7 +402,7 @@ html {
     width: 24.3697478992%; }
     .site-header .title-area:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 53.75em) {
+    @media screen and (max-width: 63.9375em) {
       .site-header .title-area {
         float: left;
         display: block;
@@ -425,7 +425,7 @@ html {
     width: 74.7899159664%; }
     .site-header .header-widget-area:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 53.75em) {
+    @media screen and (max-width: 63.9375em) {
       .site-header .header-widget-area {
         float: left;
         display: block;
