@@ -1,4 +1,6 @@
 sass/.sass-cache/
+sass/bourbon/
+sass/neat/
 .DS_Store
 config.codekit
 *.old
