@@ -1,6 +1,6 @@
-# WP Temple Sandbox Child Theme 
+# Genesis Utility Child Theme 
 
-Github project link: https://github.com/WPTemple/sandbox
+Github project link: https://github.com/protechig/genesis-utility/
 
 
 ## Installation Instructions
@@ -11,6 +11,3 @@ Github project link: https://github.com/WPTemple/sandbox
 4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
 
 
-## Theme Support
-
-Please Visit https://www.wptemple.com/ for help and support.
