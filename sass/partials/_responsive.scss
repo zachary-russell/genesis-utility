@@ -2,18 +2,18 @@
 --------------------------------------------- */
  
 .responsive-menu-icon {
-    cursor: pointer;
     display: none;
     margin-bottom: -1px;
     text-align: center;
+    cursor: pointer;
 }
  
 .responsive-menu-icon::before {
-    content: "\f333";
     display: inline-block;
-    font: normal rem(30px) 'dashicons';
     margin: 0 auto;
     padding: 10px;
+    content: "\f333";
+    font: normal rem(30px) 'dashicons';
 }
 .nav-primary .responsive-menu-icon::before {
     color: #fff;
@@ -37,9 +37,9 @@
     .genesis-nav-menu.responsive-menu .sub-menu li.current-menu-item > a:hover,
     .genesis-nav-menu.responsive-menu li a,
     .genesis-nav-menu.responsive-menu li a:hover {
-        border: none;
         display: block;
         padding: 20px;
+        border: none;
         text-transform: none;
     }
 
@@ -52,14 +52,14 @@
     }
 
     .genesis-nav-menu.responsive-menu > .menu-item-has-children:before {
-        content: "\f347";
-        float: right;
-        font: normal 20px/1 'dashicons';
-        height: 20px;
-        padding: 15px 20px;
         right: 0;
-        text-align: right;
         z-index: 9999;
+        float: right;
+        padding: 15px 20px;
+        height: 20px;
+        content: "\f347";
+        text-align: right;
+        font: normal 20px/1 'dashicons';
     }
 
     .genesis-nav-menu.responsive-menu .menu-open.menu-item-has-children:before {
@@ -71,31 +71,31 @@
     }
 
     .genesis-nav-menu.responsive-menu .sub-menu {
-        background-color: rgba(255, 255, 255, 0.05);
-        left: auto;
-        opacity: 1;
         position: relative;
+        left: auto;
+        z-index: 99;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.05);
+        opacity: 1;
+        -webkit-transition: opacity .4s ease-in-out;
         -moz-transition:    opacity .4s ease-in-out;
         -ms-transition:     opacity .4s ease-in-out;
         -o-transition:      opacity .4s ease-in-out;
-        -webkit-transition: opacity .4s ease-in-out;
         transition:         opacity .4s ease-in-out;
-        width: 100%;
-        z-index: 99;
     }
 
     .genesis-nav-menu.responsive-menu .sub-menu .sub-menu {
-        background-color: transparent;
         margin: 0;
         padding-left: 25px;
+        background-color: transparent;
     }
 
     .genesis-nav-menu.responsive-menu .sub-menu li a,
     .genesis-nav-menu.responsive-menu .sub-menu li a:hover {
-        padding: 12px 20px;
         position: relative;
-        text-transform: none;
+        padding: 12px 20px;
         width: 100%;
+        text-transform: none;
     }
 
     .genesis-nav-menu.responsive-menu .current-menu-item > a,

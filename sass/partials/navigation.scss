@@ -2,12 +2,12 @@
     @include outer-container;
 
    .menu-item {
-        list-style: none;
         float: left;
+        list-style: none;
         
         a {
-            display: block;
             position: relative;
+            display: block;
             padding: rem(15px) rem(30px);
        }
         & > :first-child > a{
@@ -24,11 +24,11 @@
         }
     }
     .sub-menu {
-        left: -9999px;
         position: absolute;
+        left: -9999px;
+        z-index: 99;
         width: 200px;
         background: red;
-        z-index: 99;
         
         .menu-item {
             float: none;
@@ -39,8 +39,8 @@
         }
     }
     .menu-item-has-children:hover > .sub-menu {
-        display: block;
         left: auto;
+        display: block;
     }
     .sub-menu .sub-menu {
         margin: -54px 0 0 200px;
@@ -50,15 +50,15 @@
 
 //* Primary Navigation
 .nav-primary {
-    background-color: $dark-gray;
     margin-bottom: rem(30px);
+    background-color: $dark-gray;
 
     .menu-item a {
         color: white;
 
         &:hover {
-            color: $action-color;
             position: static;
+            color: $action-color;
         }
     }
 

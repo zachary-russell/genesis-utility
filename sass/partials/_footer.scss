@@ -1,7 +1,7 @@
 .footer-widgets {
     padding: rem(30px) 0;
-    color: shade($light-gray, 30%);
     background: $dark-gray;
+    color: shade($light-gray, 30%);
     .wrap{
         @include outer-container;
     }
@@ -11,8 +11,8 @@
         @include span-columns(4);
     }
     .widgettitle {
-        color: $light-gray;
         margin-bottom: rem(10px); 
+        color: $light-gray;
     }
     a {
         &:hover {
@@ -20,6 +20,7 @@
     }
 }
 .site-footer {
-    @include outer-container;
     text-align: center;
+
+    @include outer-container;
 }
