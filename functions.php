@@ -34,3 +34,12 @@ add_theme_support( 'custom-header', array(
     'header-selector'   => '.site-title a',
     'header-text'       => FALSE,
 ) );
+
+//* Remove Archive and Blog page templates -they're stupid!
+
+function genesis_sandbox_remove_genesis_page_templates( $page_templates ) {
+        unset( $page_templates['page_archive.php'] );
+        unset( $page_templates['page_blog.php'] );
+        return $page_templates;
+}
+add_filter( 'theme_page_templates', 'genesis_sandbox_remove_genesis_page_templates' );
